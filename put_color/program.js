@@ -75,9 +75,9 @@ const createColor = () => {
             output: process.stdout,
         });
 
-        console.log(`
-        [SYSTEM] 입력하신 색상 이름은 ${name} 입니다.`
-        );
+        console.log(`[SYSTEM] 입력하신 색상 이름은 ${name} 입니다.`);
+
+        console.log("[SYSTEM]추가 하실 코드를 적어주세요");
         rl3.on("line", (code) => {
             console.log(`입력하신 코드는 ${code} 입니다.`);
 
